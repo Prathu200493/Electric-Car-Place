@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eco-Motors | Electric Vehicles</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <h1>Eco<span>Motors</span></h1>
+            </div>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#vehicles">Vehicles</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact" class="cta-button">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Drive the Future Today</h1>
+            <p>Experience the revolution in sustainable transportation with our premium electric vehicles.</p>
+            <div class="hero-buttons">
+                <a href="#vehicles" class="btn btn-primary">Explore Models</a>
+                <a href="#contact" class="btn btn-secondary">Book Test Drive</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>Why Go Electric?</h2>
+                <p>Join the sustainable transportation revolution</p>
+            </div>
+            <div class="benefits-grid">
+                <div class="benefit-card">
+                    <div class="benefit-icon">🌿</div>
+                    <h3>Eco-Friendly</h3>
+                    <p>Zero emissions for a cleaner planet and reduced carbon footprint.</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">💰</div>
+                    <h3>Cost Effective</h3>
+                    <p>Lower maintenance costs and significant savings on fuel expenses.</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">⚡</div>
+                    <h3>Performance</h3>
+                    <p>Instant torque and smooth acceleration for an exhilarating drive.</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">🔧</div>
+                    <h3>Low Maintenance</h3>
+                    <p>Fewer moving parts means less wear and tear and fewer repairs.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="vehicles" class="vehicles">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Electric Vehicles</h2>
+                <p>Find your perfect sustainable ride</p>
+            </div>
+            <div class="slider-container">
+                <div class="slider" id="vehicle-slider">
+                    <div class="slide active">
+                        <div class="vehicle-card">
+                            <div class="vehicle-image">
+                                <img src="c.jpg" alt="EcoCharge Model X">
+                            </div>
+                            <div class="vehicle-info">
+                                <h3>EcoCharge Model X</h3>
+                                <p class="vehicle-type">Luxury Sedan</p>
+                                <ul class="vehicle-specs">
+                                    <li><strong>Range:</strong> 350 miles</li>
+                                    <li><strong>0-60 mph:</strong> 3.2 seconds</li>
+                                    <li><strong>Top Speed:</strong> 155 mph</li>
+                                </ul>
+                                <p class="vehicle-price">Starting at ₹42,75,000</p>
+                                <a href="#contact" class="btn btn-primary">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class="vehicle-card">
+                            <div class="vehicle-image">
+                                <img src="d.jpg" alt="EcoCharge SUV Pro">
+                            </div>
+                            <div class="vehicle-info">
+                                <h3>EcoCharge SUV Pro</h3>
+                                <p class="vehicle-type">Electric SUV</p>
+                                <ul class="vehicle-specs">
+                                    <li><strong>Range:</strong> 310 miles</li>
+                                    <li><strong>0-60 mph:</strong> 4.5 seconds</li>
+                                    <li><strong>Top Speed:</strong> 135 mph</li>
+                                </ul>
+                                <p class="vehicle-price">Starting at ₹47,04,277</p>
+                                <a href="#contact" class="btn btn-primary">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class="vehicle-card">
+                            <div class="vehicle-image">
+                                <img src="e.jpg" alt="EcoCharge Compact">
+                            </div>
+                            <div class="vehicle-info">
+                                <h3>EcoCharge Compact</h3>
+                                <p class="vehicle-type">City Commuter</p>
+                                <ul class="vehicle-specs">
+                                    <li><strong>Range:</strong> 250 miles</li>
+                                    <li><strong>0-60 mph:</strong> 5.8 seconds</li>
+                                    <li><strong>Top Speed:</strong> 120 mph</li>
+                                </ul>
+                                <p class="vehicle-price">Starting at ₹32,45,900</p>
+                                <a href="#contact" class="btn btn-primary">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-controls">
+                    <button id="prev-btn" class="slider-btn">❮</button>
+                    <div class="slider-dots">
+                        <span class="dot active" data-slide="0"></span>
+                        <span class="dot" data-slide="1"></span>
+                        <span class="dot" data-slide="2"></span>
+                    </div>
+                    <button id="next-btn" class="slider-btn">❯</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Services</h2>
+                <p>Complete support for your electric journey</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">🔌</div>
+                    <h3>Charging Solutions</h3>
+                    <p>Home charging installation and access to our nationwide charging network.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🔧</div>
+                    <h3>Maintenance</h3>
+                    <p>Specialized service centers with expert technicians for your EV.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">💼</div>
+                    <h3>Financing</h3>
+                    <p>Flexible payment options and special EV incentive guidance.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🛡️</div>
+                    <h3>Extended Warranty</h3>
+                    <p>Comprehensive coverage options for peace of mind.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2>What Our Customers Say</h2>
+                <p>Real experiences from EcoCharge drivers</p>
+            </div>
+            <div class="testimonial-container">
+                <div class="testimonial">
+                    <div class="testimonial-text">
+                        <p>"Switching to an EcoCharge Model X was the best decision I've made. The performance is incredible, and I haven't visited a gas station in over a year!"</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="jake-nackos-IF9TK5Uy-KI-unsplash.jpg" alt="Sarah J.">
+                        <div>
+                            <h4>Sarah J.</h4>
+                            <p>Model X Owner - 1 Year</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <div class="testimonial-text">
+                        <p>"The home charging installation was seamless, and the SUV Pro has enough range for our family road trips. The kids love the tech features!"</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="almos-bechtold-3402kvtHhOo-unsplash.jpg" alt="Michael T.">
+                        <div>
+                            <h4>Michael T.</h4>
+                            <p>SUV Pro Owner - 2 Years</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <div class="testimonial-text">
+                        <p>"As a first-time EV owner, I was nervous about the transition, but the EcoCharge team made it so easy. The Compact is perfect for city driving!"</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="christopher-campbell-rDEOVtE7vOs-unsplash.jpg" alt="Elena R.">
+                        <div>
+                            <h4>Elena R.</h4>
+                            <p>Compact Owner - 6 Months</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Get in Touch</h2>
+                <p>We're here to answer your questions</p>
+            </div>
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">📍</div>
+                        <div>
+                            <h3>Visit Us</h3>
+                            <p>123 Electric Avenue<br>Mumbai,400074</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">📞</div>
+                        <div>
+                            <h3>Call Us</h3>
+                            <p>8999501570</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">✉️</div>
+                        <div>
+                            <h3>Email Us</h3>
+                            <p>info@ecochargemotors.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">🕒</div>
+                        <div>
+                            <h3>Hours</h3>
+                            <p>Mon-Sat: 9AM - 7PM<br>Sunday: 10AM - 5PM</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="inquiry-form">
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+                        <div class="form-group">
+                            <label for="interest">I'm interested in</label>
+                            <select id="interest" name="interest">
+                                <option value="Model X">EcoCharge Model X</option>
+                                <option value="SUV Pro">EcoCharge SUV Pro</option>
+                                <option value="Compact">EcoCharge Compact</option>
+                                <option value="Test Drive">Scheduling a Test Drive</option>
+                                <option value="Charging">Home Charging Solutions</option>
+                                <option value="Other">Other Information</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Your Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <div class="form-group">
+                            <button type="submit" class="btn btn-primary">Send Message</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>EcoCharge<span>Motors</span></h2>
+                    <p>Driving a sustainable future</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h3>Quick Links</h3>
+                        <ul>
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#vehicles">Vehicles</a></li>
+                            <li><a href="#services">Services</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h3>Support</h3>
+                        <ul>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">Charging Network</a></li>
+                            <li><a href="#">Maintenance</a></li>
+                            <li><a href="#">Warranty</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h3>Legal</h3>
+                        <ul>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Terms of Service</a></li>
+                            <li><a href="#">Accessibility</a></li>
+                            <li><a href="#">Sitemap</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-social">
+                    <h3>Connect With Us</h3>
+                    <div class="social-icons">
+                        <a href="#" class="social-icon">Facebook</a>
+                        <a href="#" class="social-icon">Twitter</a>
+                        <a href="#" class="social-icon">Instagram</a>
+                        <a href="#" class="social-icon">LinkedIn</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 EcoCharge Motors. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
